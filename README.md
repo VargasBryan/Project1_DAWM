@@ -7,6 +7,7 @@ Team: Los ángeles de Andrea
 - Andrea Soriano
 - Bryan Vargas
 - Kenny Yepez 
+
 Partes avanzadas 18/06/2021:
 - Anthony Barco: Header and Footer
 - Bryan Puchaicela: Contactanos
