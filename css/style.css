@@ -94,6 +94,9 @@ ul {
 /* --------------------
    Section Background
    -------------------*/
+section{
+    background-color: #edf2f4;
+}
 
 .gray-bg {
     background-color : #f0f1f3;
@@ -795,8 +798,23 @@ Shortcode Content
     font-size: 30px;
     margin: 0;
     padding: 0;
-    color: #4d6de3;
+    color: white;
 }
+
+.section-content-left-icon .col-md-4{
+    background-color: #d80032;
+    border:1px solid #d80032;
+    margin: 2px;
+    border-radius: 20px;
+    color: white;
+}
+
+.section-content-left-icon .col-md-4:hover{
+    background-color: white;
+    border:1px solid #d80032;
+    color:black;
+}
+
 
 /* ------------------
  * Featured box
