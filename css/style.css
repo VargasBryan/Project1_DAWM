@@ -277,6 +277,9 @@ Shortcode Content
     padding-bottom : 0;
     height         : 40px;
     }
+.navbar-brand img{
+    max-width: 30%;
+}
 
 .navbar-default .navbar-nav > li {
     margin-right : 17px;
@@ -501,8 +504,6 @@ Shortcode Content
     }
 
 /*uc-mobile-menu*/
-.uc-mobile-menu {
-    }
 
 .uc-mobile-menu-container > div {
     visibility : hidden;
@@ -579,7 +580,7 @@ Shortcode Content
     justify-content: flex-end;
  }
 
-/* Phone, Emial, Get a Quote */
+/* Phone, Emial, Project */
 
 .header-top .top-contact li{
     display    : inline-block;
@@ -875,7 +876,7 @@ Shortcode Content
     border-top: 1px solid #f9f9f9;
 }
 
-.team-member .social-links {}
+
 .team-member .social-links li{
     display: inline-block;
     margin-right: 5px;
@@ -1211,7 +1212,6 @@ icon-style
 /*----------------------
  tabOne start
  -----------------------*/
-.tabOne {}
 .tabOne .nav-tabs {
     border: 1px solid #eee;
     border-bottom: none;
@@ -1399,8 +1399,6 @@ icon-style
     padding: 12px 12px;
 }
 
-
-.contact-form  {}
 .contact-form  h2{
     line-height: 36px;
     margin-bottom: 45px;
@@ -1473,7 +1471,7 @@ icon-style
  *   Footer
  *---------------------------------------------- */
 .footer {
-    background: #3a3a3a url("../img/img-testimonial-bg.png") repeat-x center bottom;
+    background: #2b2d42 url("../img/img-testimonial-bg.png") repeat-x center bottom;
     }
 
 .footer-widget-section{
