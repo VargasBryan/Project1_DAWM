@@ -14,3 +14,8 @@ Partes avanzadas 18/06/2021:
 - Andrea Soriano: Inicio
 - Bryan Vargas: Servicios
 - Kenny Yepez: Quienes Somos
+
+
+# Prototipo
+Imagen de prototipo
+<img src="/img/diseño.png" alt="Prototipo de imagen"/>
