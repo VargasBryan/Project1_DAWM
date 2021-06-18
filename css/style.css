@@ -571,26 +571,16 @@ Shortcode Content
  *-------------------------*/
 
 .header-top{
-    background: #4760bb;
+    background: #08d9d6;
  }
 
- /*Social Icon*/
-
-.header-top .social-icon li{
-    display: inline-block;
+ .header-top .container{
+    display: flex;
+    justify-content: flex-end;
  }
-
-.header-top .social-icon li a{
-    line-height: 50px;
-    width: 30px;
-    color: #fff;
-}
-
-.header-top .social-icon li a:hover{
-    opacity: .5; 
-}
 
 /* Phone, Emial, Get a Quote */
+
 .header-top .top-contact li{
     display    : inline-block;
     line-height: 50px;
@@ -610,14 +600,14 @@ Shortcode Content
 }
 
 
-.header-top .top-contact li.get-a-quote a{
+.header-top .top-contact li.project a{
     padding: 0 30px;
     display: block;
     background: #3ea8f4;
     color: #fff;
 }
 
-.header-top .top-contact li.get-a-quote a:hover{
+.header-top .top-contact li.project a:hover{
     opacity: .8;
 }
 
@@ -633,7 +623,7 @@ Shortcode Content
         padding: 5px 0 10px;
     }
 
-    .header-top .top-contact li.get-a-quote a{
+    .header-top .top-contact li.project a{
         padding: 8px 15px; 
     }
 
@@ -1498,6 +1488,27 @@ icon-style
     font-size: 18px;
     color: #fff;
     }
+.footer .footer-text p{
+    text-align: justify;
+    }
+    
+ /*Social Icon*/
+
+ .footer .footer-text .social-icon li{
+    display: inline-block;
+ }
+
+ .footer .footer-text .social-icon li a{
+    line-height: 50px;
+    width: 150px;
+    color: #fff;
+    text-align: center;
+    font-size:  xx-large;
+}
+
+.footer .footer-text .social-icon li a:hover{
+    opacity: .5; 
+}
 
 .footer .footer-text ul{
     border-top: 1px solid rgba(255,255,255,.05);
