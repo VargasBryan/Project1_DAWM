@@ -736,7 +736,19 @@ Shortcode Content
         }
     }
 
+/*Buscador*/
+.input-group{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
 
+.input-group .btn{
+    position: relative;
+    z-index: 2;
+}
 
 /*---------------------------
  * Section Title
@@ -749,7 +761,7 @@ Shortcode Content
  * Service Left Icon section
  *---------------------------*/
 .section-content-left-icon{
-    padding: 80px 0 20px;
+    padding: 70px 0 20px;
     }
 
 .section-content-left-icon .left-icon-wraper {
@@ -764,7 +776,8 @@ Shortcode Content
 }
 
 .section-content-left-icon .content{
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .section-content-left-icon .content h2{
@@ -773,6 +786,7 @@ Shortcode Content
 
 .section-content-left-icon .icon{
     width: 70px;
+    padding-top: 10px;
 }
 
 .section-content-left-icon .icon i{
@@ -794,7 +808,7 @@ Shortcode Content
 
 .section-content-left-icon .col-md-4{
     background-color: #d80032;
-    border:1px solid #d80032;
+    box-shadow: inset 0 0 0 1px #d80032;
     margin: 2px;
     border-radius: 20px;
     color: white;
@@ -802,8 +816,14 @@ Shortcode Content
 
 .section-content-left-icon .col-md-4:hover{
     background-color: white;
-    border:1px solid #d80032;
+    box-shadow: inset 0 0 0 1px #d80032;
     color:black;
+}
+
+@media (min-width: 992px) {
+    .col-md-4 {
+        width: 32%;
+    }
 }
 
 /* ------------------
@@ -1115,12 +1135,6 @@ Shortcode Content
 /* --------------------------------------------------
 icon-style
 ------------------------------------------------- */
-
-.icon-style {}
-/*promo-block*/
-.icon-style .promo-block-wrapper {
-    /*margin-bottom: 80px;*/
-    }
 
 .icon-style .promo-icon {
     width: 75px;
