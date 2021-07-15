@@ -1,42 +1,27 @@
-# Project1_DAWM
+# FrontEnd
 
-## Team: Los ángeles de Andrea 🚀
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
 
-Partes avanzadas 18/06/2021:
-- Anthony Barco: Header and Footer
-- Bryan Puchaicela: Contactanos
-- Andrea Soriano: Inicio
-- Bryan Vargas: Servicios
-- Kenny Yepez: Quienes Somos
+## Development server
 
-## Prototipo
-Imagen de prototipo
-<img src="/img/diseño.png" alt="Prototipo de imagen"/>
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Capturas de pantalla de las páginas
+## Code scaffolding
 
-### Página de Inicio
-<img src="/img/pagInicio.png" alt="Pagina de inicio">
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-### Página de Quienes Somos
-<img src="/img/pagQuienes.png" alt="Página de Quiene">
+## Build
 
-### Página de Servicios
-<img src="/img/pagServicios.png" alt="Página de Servicios">
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-### Página de conctátenos
-<img src="/img/pagContactos.png" alt="Página de conctátenos">
+## Running unit tests
 
-## Construido con 🛠️
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-* [Bootstrap](https://getbootstrap.com/) - El framework web usado
-* [Marketer](https://uicookies.com/downloads/marketer-bootstrap-html5-advertising-agency-website-template/) - Plantilla usada
-* [Angular](https://angular.io/) - Framework usado
+## Running end-to-end tests
 
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Autores ✒️
-* **Anthony Barco** - *Trabajo* - [abbarco](https://github.com/abbarco)
-* **Bryan Puchaicela** - *Trabajo* - [bryapuch](https://github.com/bryapuch)
-* **Andrea Soriano** - *Trabajo* - [AndreaSoriano](https://github.com/AndreaSoriano)
-* **Bryan Vargas** - *Trabajo* - [VargasBryan](https://github.com/VargasBryan)
-* **Kenny Yepez** - *Trabajo* - [Kfyepez](https://github.com/Kfyepez)
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
