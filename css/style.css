@@ -757,6 +757,7 @@ Shortcode Content
     margin-right: 20px;
     background-color: #edf2f4;
     display: flex;
+    flex-flow: row;
     flex-wrap: wrap;
     align-items: stretch;
     width: 100%;
@@ -766,6 +767,8 @@ Shortcode Content
     position: relative;
     z-index: 2;
 }
+
+
 
 /*---------------------------
  * Section Title
@@ -829,6 +832,7 @@ Shortcode Content
     margin: 2px;
     border-radius: 20px;
     color: white;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .section-content-left-icon .col-md-4:hover{
