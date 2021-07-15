@@ -31,6 +31,7 @@ Imagen de prototipo
 
 * [Bootstrap](https://getbootstrap.com/) - El framework web usado
 * [Marketer](https://uicookies.com/downloads/marketer-bootstrap-html5-advertising-agency-website-template/) - Plantilla usada
+* [Angular](https://angular.io/) - Framework usado
 
 
 ## Autores ✒️
