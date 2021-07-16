@@ -13,9 +13,7 @@ npm install -g @angular/cli
 ```
 ### Instalación 🔧
 
-_En primer lugar clonar el repositorio en su maquina de escritorio_
-
-_Dí _
+_Primero, clonar el repositorio en su maquina de escritorio_
 
 ```
 git clone https://github.com/VargasBryan/frontEnd.git
@@ -27,7 +25,7 @@ _Dentro de la carpeta abrir el cmd y ejecutar el server_
 ng server -o
 ```
 
-_Si le presenta un error al ejecutar el servidor `An unhandled exception occurred: Cannot find module '@angular-devkit Require stack:`. Se procede a ejecutar el siguiente codigo para que se descargue _
+_Si le presenta un error al ejecutar el servidor `An unhandled exception occurred: Cannot find module '@angular-devkit Require stack:`. Se procede a ejecutar el siguiente codigo para que se descargue_
 
 ```
 npm update
