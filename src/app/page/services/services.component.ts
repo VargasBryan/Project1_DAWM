@@ -13,11 +13,13 @@ export class ServicesComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.negocioService.getAllProducts().subscribe(listaNegocio=>{
-      this.negocios=listaNegocio
-      console.log(this.negocios)
-    })
+    
   }
 
+  async ejecutarfetch(){
+    let response = await fetch('http://localhost:4000/api/negocio');
+    let datos = await response.json();
+    console.log(datos);
+  }
 
 }

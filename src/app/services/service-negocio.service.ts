@@ -17,7 +17,7 @@ export class ServiceNegocioService {
   }
 
   getAllProducts() {
-    return this.http.get<Negocio[]>(`${environment.url_principal}/negocio`);
+    return this.http.get<Negocio[]>('http://localhost:4000/api/negocio');
   }
 
    
