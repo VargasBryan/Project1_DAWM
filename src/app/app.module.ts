@@ -13,6 +13,8 @@ import { ServicesComponent } from './page/services/services.component';
 import { RouterModule, Routes } from '@angular/router';
 import { NavComponent } from './page/nav/nav.component';
 import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
+
 
 const routes: Routes = [
   {path:'home',component:HomeComponent},
@@ -34,7 +36,9 @@ const routes: Routes = [
     BrowserModule,
     AppRoutingModule,
     CommonModule,
+    HttpClientModule,
     RouterModule.forRoot(routes)
+
   ],
   providers: [],
   bootstrap: [AppComponent]
