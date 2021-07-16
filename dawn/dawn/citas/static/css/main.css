@@ -1,0 +1,20 @@
+
+body{
+    background-color: #ffffff;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-between;
+    background-color: #4d6de3;
+    padding: 1.5%;
+}
+
+.navbar-nav li{
+    margin-right: 10%;
+    list-style: none;
+}
+
+.navbar-nav li a{
+    color: #ffffff;
+}
