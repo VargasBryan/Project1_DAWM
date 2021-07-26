@@ -8,6 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Marketer - Responsive HTML5 Template</title>
+  <!-- Intro js-->
+  <link href="https://unpkg.com/intro.js/minified/introjs.min.css" rel="stylesheet">
   <!-- web-fonts -->
   <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -30,13 +32,13 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <base href="/">
+  <base href="/">
 
 </head>
 
 <body>
 
-  <div id="main-wrapper">
+  <div id="main-wrapper" data-title="Bienvenida" data-intro="Bienvenido a nuestra pagina Reserva tu cita">
     <!-- Page Preloader -->
     <div id="preloader">
       <div id="status">
@@ -119,10 +121,10 @@
       <div>
         <div>
           <ul id="menu">
-            <li><a routerLink = "/home">Home</a></li>
-            <li><a routerLink = "/about">About</a></li>
-            <li><a routerLink = "/services">Services</a></li>
-            <li><a routerLink = "/contact">Contact</a></li>
+            <li><a routerLink="/home">Home</a></li>
+            <li><a routerLink="/about">About</a></li>
+            <li><a routerLink="/services">Services</a></li>
+            <li><a routerLink="/contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -133,6 +135,10 @@
   <!-- #main-wrapper -->
 
   <!-- Script -->
+  <script src="https://unpkg.com/intro.js/minified/intro.min.js"></script>
+  <script>
+    introJs.start();
+  </script>
   <script src="assets/js/jquery-2.1.4.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
     integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
@@ -140,11 +146,11 @@
   <script src="assets/js/smoothscroll.js"></script>
   <script src="assets/js/mobile-menu.js"></script>
   <script src="assets/js/scripts.js"></script>
-  <div />
+  <div>
   <a style="font-size:0; height:0; width:0; opacity:0; position:absolute" target="_blank"
     href="http://www.uicookies.com">Bootstrap Templates by uiCookies</a>
   </div>
-
+  <script src="/assets/js/intro.js"></script>
 
 </body>
 

@@ -17,12 +17,12 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="#navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right main-nav">
-                <li><a routerLink="/home">Inicio</a></li>
-                <li><a routerLink="/about">¿Quienes somos?</a></li>
-                <li><a routerLink = "/services">Servicios</a></li>
-                <li><a routerLink = "/contact">Contactanos</a></li>
-                 <li class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Iniciar Sesion <span><i class="fa fa-angle-down"></i></span></a>
+            <ul class="nav navbar-nav navbar-right main-nav" id="step2" >
+                <li><a id="inicio" routerLink="/home">Inicio</a></li>
+                <li><a id="about" routerLink="/about">¿Quienes somos?</a></li>
+                <li><a id="servicio" routerLink="/services">Servicios</a></li>
+                <li><a id="contactos" routerLink="/contact">Contactanos</a></li>
+                 <li id="btnSesion" class="dropdown dropdown-toggle"><a href="#" data-toggle="dropdown">Iniciar Sesion <span><i class="fa fa-angle-down"></i></span></a>
                     <ul class="dropdown-menu">
                             <li><a href="#">Iniciar Sesión</a></li>
                             <li><a href="#">Registrarse</a></li>
@@ -37,3 +37,5 @@
     <!-- .container -->
 </nav>
 <!-- .nav -->
+<script src="https://unpkg.com/intro.js/minified/intro.min.js"></script>
+<script src="/assets/js/intro.js"></script>
