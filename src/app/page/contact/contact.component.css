@@ -1,0 +1,209 @@
+/* --------------------------------------------------
+icon-style
+------------------------------------------------- */
+
+.icon-style .promo-icon {
+    width: 75px;
+    height: 80px;
+    color: #dadada;
+    font-size: 24px;
+    line-height: 76px;
+    text-align: center;
+    border: 2px solid #dadada;
+    margin: 0 auto 36px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    }
+.icon-style .promo-block-wrapper:hover .promo-icon {
+    background-color: #31aae2;
+    color: #fff;
+    border: 2px solid transparent;
+    }
+
+.icon-style .promo-content {
+    padding: 20px;
+    }
+.icon-style .promo-content h3{
+    font-size: 15px;
+    text-transform: capitalize;
+    }
+
+    
+/* ------------------
+   Google Map
+   ------------------*/
+
+.our-location {
+    padding: 80px 0;
+}
+
+#googleMap{
+    height: 500px;
+    }
+
+
+/* ---------------------------
+ *  Contact Detail
+ * --------------------------- */
+
+.contact-detail{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.contact-detail .promo-block-wrapper {
+    background: #ffffff;
+    display: table;
+    width: 100%;
+}
+@media (max-width: 992px){
+    .contact-detail .promo-block-wrapper{
+        margin-bottom: 1px;
+    }
+}
+.contact-detail .promo-icon {
+    width: 82px;
+    color: #dadada;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 10px;
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid #f1f1f1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+
+.contact-detail .promo-icon-blue{
+    background: #4d6de3;
+    color: #ffffff;
+}
+
+.contact-detail .promo-icon-green{
+    background: #7AC38F;
+    color: #ffffff;
+}
+.contact-detail .promo-icon-yellow{
+    background: #FCE38A;
+    color: #ffffff;
+}
+
+.contact-detail .promo-content {
+    padding: 30px 40px;
+    border: 1px solid #f1f1f1;
+    border-left: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1024px){
+    .contact-detail .promo-content{
+        padding: 20px 20px;
+    }
+}
+
+.contact-detail .promo-content h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.contact-detail .promo-content address{
+    line-height: 25px;
+}
+
+
+
+/* ---------------------------
+ * Contact Form
+ * --------------------------- */
+
+.contact-section{
+    padding: 80px 0;
+}
+
+.contact-section .form-group {
+    margin-bottom: 17px;
+}
+.contact-section .form-control {
+    border-color: transparent;
+    background-color: #f9f9f9;
+}
+.contact-section .form-control:focus{
+    border-color: #66afe9;
+}
+.contact-section textarea {
+    padding: 12px 12px;
+}
+
+.contact-form  h2{
+    line-height: 36px;
+    margin-bottom: 45px;
+    }
+
+.user-message textarea {
+    min-height: 195px;
+    padding-top: 12px;
+    }
+.contact-form form button {
+    margin-top: 10px;
+    }
+
+
+.user-name,
+.user-email,
+.user-phone,
+.user-url,
+.user-message{
+    position: relative;
+    }
+.user-name::after,
+.user-email::after,
+.user-phone::after,
+.user-url::after,
+.user-message::after {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-family: "FontAwesome";
+    color: #dadada;
+    }
+
+.user-name::after {
+    content: "\f007";
+    }
+.user-email::after {
+    content: "\f003";
+    }
+.user-phone::after {
+    content: "\f095";
+    }
+.user-url::after {
+    content: "\f0ac";
+    }
+.user-message::after {
+    content: "\f086";
+    }
+
+/*-------------------
+ * Form Style
+ *-------------------*/
+.form-control {
+    height: 53px;
+    padding: 6px 20px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #969595;
+    border: 1px solid #F1F1F1;
+    border-radius: 0;
+    box-shadow: none;
+}
+.form-control:focus,
+.form-control:active{
+    box-shadow: none;
+}

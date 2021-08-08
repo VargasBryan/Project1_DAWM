@@ -1,0 +1,149 @@
+
+/* --------------------------------------------
+ *   Footer
+ *---------------------------------------------- */
+ .footer {
+    background: #2b2d42 url("../../../assets/img/img-testimonial-bg.png") repeat-x center bottom;
+    }
+
+.footer-widget-section{
+    padding: 80px 0;
+}
+
+.footer .footer-logo {
+    margin-bottom: 30px;
+    }
+
+.footer .footer-text {
+    font-size: 18px;
+    color: #fff;
+    }
+.footer .footer-text p{
+    text-align: justify;
+    }
+    
+ /*Social Icon*/
+
+ .footer .footer-text .social-icon li{
+    display: inline-block;
+ }
+
+ .footer .footer-text .social-icon li a{
+    line-height: 50px;
+    width: 150px;
+    color: #fff;
+    text-align: center;
+    font-size:  xx-large;
+}
+
+.footer .footer-text .social-icon li a:hover{
+    opacity: .5; 
+}
+
+.footer .footer-text ul{
+    border-top: 1px solid rgba(255,255,255,.05);
+    padding-top: 30px;
+    margin-top: 20px;
+    vertical-align: top;
+    display: table;
+    width: 100%;
+}
+
+.footer .footer-text ul i{
+    opacity: .5;
+
+}
+
+.footer .footer-text li{
+    display: table-cell;
+}
+
+.footer .footer-text ul .phone{
+    font-size: 24px;
+}
+
+.footer .footer-text ul i{
+    font-size: 30px;
+    margin-right: 10px;
+    position: relative;
+    top:1px;
+}
+
+.footer .footer-text .phone small{
+    display: block;
+    font-size: 12px;
+    padding-left: 40px;
+    opacity: .5;
+}
+
+.footer .footer-text  small i{
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.footer .footer-text .address{
+    padding-left: 30px;
+    font-size: 24px;
+}
+
+
+/* Copyright */
+
+.footer .copyright-section {
+    font-size: 12px;
+    background-color : #2d2d2d;
+    color            : #6b6b6b;
+    padding          : 20px 0;
+    }
+
+.footer .copyright-section .copytext {
+    text-transform : uppercase;
+    color          : #6b6b6b;
+    font-weight    : 600;
+    }
+
+.footer .copyright-section li a {
+    display   : block;
+    font-size : 13px;
+    color     : #6b6b6b;
+    }
+
+.footer .copyright-section li a:hover,
+.footer .copyright-section li.active a {
+    color : #ffffff;
+    }
+
+/* media queries */
+
+@media (min-width : 768px) {
+    .footer .copyright-section .list-inline > li {
+        padding-right : 10px;
+        padding-left  : 10px;
+        }
+    }
+
+
+@media (max-width : 768px) {
+    .footer .footer-text ul i,
+     .footer .footer-text ul .phone,
+     .footer .footer-text ul .address{
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .footer .footer-text ul .phone small{
+        padding-left: 20px;
+    }
+
+
+    .footer .footer-text li{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+
+    /*footer menu*/
+    .footer .copyright-section .pull-right{
+        float: none !important;
+    }
+}
