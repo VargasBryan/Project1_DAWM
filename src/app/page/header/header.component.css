@@ -1,0 +1,66 @@
+/* ------------------------
+ *  Header Top bar
+ *-------------------------*/
+
+ .header-top{
+    background: #08d9d6;
+ }
+
+ .header-top .container{
+    display: flex;
+    justify-content: flex-end;
+ }
+
+/* Phone, Emial, Project */
+
+.header-top .top-contact li{
+    display    : inline-block;
+    line-height: 50px;
+    text-align :center;
+}
+
+.header-top .top-contact li.phone,
+.header-top .top-contact li.email{
+    padding  : 0 20px;
+    color    : #fff;
+}
+
+.header-top .top-contact li.phone i,
+.header-top .top-contact li.email i{
+    margin-right: 5px;
+    opacity: .5;
+}
+
+
+.header-top .top-contact li.project a{
+    padding: 0 30px;
+    display: block;
+    background: #3ea8f4;
+    color: #fff;
+}
+
+.header-top .top-contact li.project a:hover{
+    opacity: .8;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px){
+    .header-top{
+        text-align:center;
+    }
+
+    .header-top .top-contact li{
+        line-height: 1;
+        padding: 5px 0 10px;
+    }
+
+    .header-top .top-contact li.project a{
+        padding: 8px 15px; 
+    }
+
+    .top-contact.pull-right{
+        float: none !important;
+    }
+    
+}

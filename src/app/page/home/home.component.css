@@ -1,0 +1,230 @@
+
+/*-------------------
+    HERO SLIDER
+--------------------*/
+.hero-slide .carousel-inner>.item>img{
+    min-width: 100% !important;
+}
+
+.hero-slide .carousel-caption {
+    bottom      : 50%;
+    text-shadow : none;
+    transform   : translateY(50%);
+    left        : 0;
+    right       : 0;
+    width       : 1140px;
+    margin      : 0 auto;
+    text-align  : left;
+    }
+
+.hero-slide .carousel-caption h1 {
+    font-size      : 48px;
+    line-height    : 1.3em;
+    font-weight    : 100;
+    color          : #fff;
+    }
+
+.hero-slide .carousel-caption p {
+    font-size   : 18px;
+    color       : #fff;
+    font-weight : 100;
+    line-height    : 1.5em;
+    }
+
+.hero-slide .carousel-control.left,
+.hero-slide .carousel-control.right {
+    width       : 50px;
+    height      : 50px;
+    line-height : 50px;
+    top         : 50%;
+    margin-top  : -25px;
+    background  : transparent;
+    cursor      : pointer;
+    text-shadow : none;
+    border-radius: 3px;
+    background: #fff;
+    color: #303841;
+    box-shadow: inset 0 -2px rgba(0,0,0,.1);
+    }
+
+
+
+.hero-slide .carousel-control.left {
+    left : -1%;
+    opacity: 0;
+    }
+
+.hero-slide .carousel-control.right {
+    right : -1%;
+    opacity: 0;
+    }
+
+.hero-slide:hover .carousel-control.left,
+.hero-slide:hover .carousel-control.right{
+    opacity: 1;
+}
+
+.hero-slide:hover .carousel-control.left{
+    left: 1%;
+}
+
+
+.hero-slide:hover .carousel-control.right{
+    right: 1%;
+}
+
+
+.hero-slide .carousel-indicators {
+    bottom : 60px;
+    }
+
+.hero-slide .carousel-indicators li {
+    border : 2px solid #ffffff;
+    }
+
+/*Media Query*/
+@media screen and (max-width : 768px) {
+
+    .hero-slide .carousel-caption h1 {
+        font-size : 24px;
+        }
+
+    .hero-slide .carousel-indicators {
+        bottom : 20px;
+        }
+
+    .hero-slide .carousel-caption p {
+        font-size : 12px;
+        }
+    }
+
+/*Buscador*/
+.input-group{
+    position: relative;
+    margin-left:15px;
+    margin-right: 20px;
+    background-color: #edf2f4;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.input-group .btn{
+    position: relative;
+    z-index: 2;
+}
+
+
+
+/*---------------------------
+ * Section Title
+ *---------------------------*/
+ .section-title{
+    margin-bottom: 60px;
+ }
+
+/*---------------------------
+ * Service Left Icon section
+ *---------------------------*/
+.section-content-left-icon{
+    padding: 70px 0 20px;
+    }
+
+.section-content-left-icon .left-icon-wraper {
+    display: table;
+    margin-bottom: 60px;
+}
+
+.section-content-left-icon .content,
+.section-content-left-icon .icon{
+    display: table-cell;
+    vertical-align: top;
+}
+
+.section-content-left-icon .content{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.section-content-left-icon .content h2{
+    font-size: 18px;
+}
+
+.section-content-left-icon .icon{
+    width: 70px;
+    padding-top: 10px;
+}
+
+.section-content-left-icon .icon i{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 25px;
+    display: block;
+}
+
+.section-content-left-icon .icon i::before{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.section-content-left-icon .col-md-4{
+    background-color: #d80032;
+    box-shadow: inset 0 0 0 1px #d80032;
+    margin: 2px;
+    border-radius: 20px;
+    color: white;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.section-content-left-icon .col-md-4:hover{
+    background-color: white;
+    box-shadow: inset 0 0 0 1px #d80032;
+    color:black;
+}
+
+@media (min-width: 992px) {
+    .col-md-4 {
+        width: 32%;
+    }
+}
+
+/* ------------------
+ * Featured box
+ *-------------------*/
+
+.featured-box{
+    border-top: 1px solid #f0f1f3;
+}
+.featured-content-wrapper{
+    display: table;
+}
+.featured-box .featured-img,
+.featured-box .featured-content{
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+}
+
+
+/*Media Query*/
+
+@media only screen and (max-width: 768px) {
+    .featured-box{
+        padding: 60px 0;
+    }
+    .featured-box .featured-img{
+        margin: 0 0 30px;
+    }
+    .featured-box .featured-img,
+    .featured-box .featured-content{
+        display:block;
+        width: 100%;
+    }
+}
