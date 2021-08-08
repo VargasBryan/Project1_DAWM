@@ -14,6 +14,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { NavComponent } from './page/nav/nav.component';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './page/footer/footer.component';
+import { HeaderComponent } from './page/header/header.component';
 
 
 
@@ -32,6 +34,8 @@ const routes: Routes = [
     ContactComponent,
     ServicesComponent,
     NavComponent,
+    FooterComponent,
+    HeaderComponent,
 
   ],
   imports: [
