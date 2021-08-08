@@ -4,3 +4,8 @@
 #step2{
     font-size: 15px;
 }
+/* Decorar para saber en que pagina esta de la navegacion*/
+#step2 > li a.active{
+    font-style: oblique;
+    text-decoration: underline;
+}
