@@ -14,9 +14,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { NavComponent } from './page/nav/nav.component';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
-import { LoginComponent } from './page/login/login.component';
-import { RegisterComponent } from './page/register/register.component';
-import { ProgressComponent } from './page/progress/progress.component';
 
 
 
@@ -35,9 +32,7 @@ const routes: Routes = [
     ContactComponent,
     ServicesComponent,
     NavComponent,
-    LoginComponent,
-    RegisterComponent,
-    ProgressComponent,
+
   ],
   imports: [
     BrowserModule,
