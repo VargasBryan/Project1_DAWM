@@ -1,5 +1,5 @@
 #img_logo{
-    max-width: 150px;
+    max-width: 130px;
 }
 #step2{
     font-size: 15px;
@@ -9,3 +9,6 @@
     font-style: oblique;
     text-decoration: underline;
 }
+.navbar-brand p span { /* Star-K */
+    vertical-align: middle;
+  }

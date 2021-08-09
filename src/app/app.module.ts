@@ -11,6 +11,8 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { FooterComponent } from './page/footer/footer.component';
 import { HeaderComponent } from './page/header/header.component';
+import { LoginComponent } from './page/login/login.component';
+import { RegisterComponent } from './page/register/register.component';
 
 
 @NgModule({
@@ -23,6 +25,8 @@ import { HeaderComponent } from './page/header/header.component';
     NavComponent,
     FooterComponent,
     HeaderComponent,
+    LoginComponent,
+    RegisterComponent,
 
   ],
   imports: [

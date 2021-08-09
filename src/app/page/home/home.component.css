@@ -228,3 +228,6 @@
         width: 100%;
     }
 }
+#buscador{
+    max-width: max-content;
+}
