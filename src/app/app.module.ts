@@ -6,13 +6,14 @@ import { HomeComponent } from './page/home/home.component';
 import { AboutComponent } from './page/about/about.component';
 import { ContactComponent } from './page/contact/contact.component';
 import { ServicesComponent } from './page/services/services.component';
-import { NavComponent } from './page/nav/nav.component';
+import { NavComponent } from './componentes/nav/nav.component';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
-import { FooterComponent } from './page/footer/footer.component';
-import { HeaderComponent } from './page/header/header.component';
+import { FooterComponent } from './componentes/footer/footer.component';
+import { HeaderComponent } from './componentes/header/header.component';
 import { LoginComponent } from './page/login/login.component';
 import { RegisterComponent } from './page/register/register.component';
+import { CarouselComponent } from './componentes/carousel/carousel.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { RegisterComponent } from './page/register/register.component';
     HeaderComponent,
     LoginComponent,
     RegisterComponent,
+    CarouselComponent,
 
   ],
   imports: [

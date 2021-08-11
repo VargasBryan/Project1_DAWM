@@ -130,3 +130,7 @@
     margin-bottom: 15px;
 }
 
+#contenedor-img{
+    justify-content: center;
+    align-items: center;
+}
