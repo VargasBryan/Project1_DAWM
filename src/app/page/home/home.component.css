@@ -229,5 +229,5 @@
     }
 }
 #buscador{
-    max-width: max-content;
+    max-width: -moz-available;
 }

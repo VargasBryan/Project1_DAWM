@@ -1,14 +1,36 @@
-#img_logo{
-    max-width: 130px;
+#img_logo {
+  max-width: 200px;
+  max-height: 60px;
 }
-#step2{
-    font-size: 15px;
+#step2 {
+  font-size: 15px;
 }
 /* Decorar para saber en que pagina esta de la navegacion*/
-#step2 > li a.active{
-    font-style: oblique;
-    text-decoration: underline;
+#step2 > li a.active {
+  font-style: oblique;
+  text-decoration: underline;
 }
-.navbar-brand p span { /* Star-K */
-    vertical-align: middle;
+.navbar-brand p span {
+  /* Star-K */
+  vertical-align: middle;
+}
+#nav-menu {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .container-img-btn {
+      height: 65px;
   }
+  #step2{
+      display: block;
+  }
+  #step2 > li{
+      text-align: center;
+  }
+  #nav-img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+}
