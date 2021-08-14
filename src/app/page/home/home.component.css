@@ -17,6 +17,9 @@
     z-index: 2;
 }
 
+p{
+    font-size: 1.5em;
+}
 
 
 /*---------------------------
@@ -131,4 +134,7 @@
 }
 #buscador{
     max-width: ;
+}
+.carousel-caption p{
+    align-content: center;
 }
