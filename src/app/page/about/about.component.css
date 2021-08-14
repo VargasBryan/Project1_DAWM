@@ -2,21 +2,29 @@
  * Team Section
  *-----------------------------------------------*/
  .team-section{
-    padding: 80px 0;
+    padding: 0 3% 0 3%;
+    width: 100%;
+}
+.team-section .container .section-title h3{
+    font-size: 24px;
+    margin-bottom: 3%;
+}
+
+.team-member .container .col-md-4{
+    padding: 0 2% 2% 2%;
 }
 
 .team-member .thumbnail{
     padding: 0;
     margin-bottom: 0;
-    line-height: 22px;
     background-color: #fff;
-    border: 1px solid #f9f9f9;
+    border: 0.5% solid #f9f9f9;
     border-radius: 0;
-    margin-bottom: 30px;
+    margin-bottom: 2%;
 }
-@media (max-width : 767px) { 
+@media (max-width : 30%) { 
     .team-member .thumbnail {
-        margin-bottom: 30px;
+        margin-bottom: 5%;
     }
 }
 .team-member .thumbnail img{
@@ -24,12 +32,19 @@
     height: 350px;
 }
 .team-member .thumbnail .caption {
-    padding: 30px 40px;
+    padding: 5%;
 }
 .team-member .thumbnail h3 {
-    font-size: 24px;
-    text-transform: capitalize;
+    font-size: 24px;   
+    margin-bottom: 5%;
 }
+
+.team-member .thumbnail p {
+    font-size: 14px;
+    margin-bottom: 5%;
+    font-stretch: normal;
+}
+
 .team-member .thumbnail hr {
     border-top: 1px solid #f9f9f9;
 }
@@ -108,29 +123,50 @@
  *--------------------*/
 
 .about-text{
-    padding: 80px 0;
+    padding: 4% 0 0 0;
 }
 
 .about-text h2{
-    font-size: 24px;
-    margin-bottom: 40px;
+    font-size: 32px;
+    margin-bottom: 5%;
 }
 
 .about-text p{
+    font-size: 15px;
     text-align: justify;
+    padding: 0 5% 0 0;
 }
 
 .about-text-2{
-    padding: 80px 0;
-    border-top:1px solid #f0f1f3;
-    border-bottom:1px solid #f0f1f3;
+    display: flex;
+    padding: 4% 0;
+    border: 5fr solid #f0f1f3;
+    border-bottom:5fr solid #f0f1f3;
+    max-width: 100%;
+    justify-content: center;
 }
 
 .about-text-2 img{
-    margin-bottom: 15px;
+    margin-bottom: 5fr;
+    padding: 5% 0;
+    max-width: 100%;
+}
+
+.about-text-2 .col-sm-4{
+    padding: 2%;
+}
+
+.about-text-2 h3{
+    font-size: 24px;
+}
+
+.about-text-2 p{
+    font-size: 15px;
+    text-align: justify;
 }
 
 #contenedor-img{
     justify-content: center;
     align-items: center;
+    max-width: 100%;
 }
